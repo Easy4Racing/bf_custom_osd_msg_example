@@ -2,7 +2,6 @@
    v6.1:2023/8/23
    This is a demo for ESP8266 sending custom OSD messages to FC via MSP
 */
-#include "oltAuConfig.h"
 #include "MSP.h"
 #include "osd_symbols.h"
 
