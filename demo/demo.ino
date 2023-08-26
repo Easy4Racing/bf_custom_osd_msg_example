@@ -1,10 +1,6 @@
 /*
    v6.1:2023/8/23
-   修改：
-   CUSTOM_MSG_SPLITER从0x23改为0x00,
-   msp.h->MSP2TEXT_CUSTOM_INFO=7
-   用strncpy()取代springf()
-   将msp.command2里面的sizeof(custommsg)改为custommsg的实际长度，因为第三行出现乱码
+   This is a demo for ESP8266 sending custom OSD messages to FC via MSP
 */
 #include "oltAuConfig.h"
 #include "MSP.h"
