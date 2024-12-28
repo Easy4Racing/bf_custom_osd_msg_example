@@ -37,6 +37,7 @@
 #define MSP2TEXT_BUILDKEY                        5
 #define MSP2TEXT_RELEASENAME                     6
 #define MSP2TEXT_CUSTOM_INFO                	   7
+#define MAX_CUSTOM_INFO_NUM                      8
 
 // bits of getActiveModes() return value
 #define MSP_MODE_ARM          0
